@@ -1,0 +1,114 @@
+.register-container{
+    width: 90vw;
+    height: 80vh;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 40px;
+    margin: 8vh auto;
+    position: relative;
+}
+.white-container{
+    position: absolute;
+    right: unset;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background: #ffffff;
+
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 0px 0px 40px;
+}
+.blue-container{
+    position: absolute;
+    height: 100%;
+    right:  0px;
+    top: 0px;
+    background: #1C356E;
+    left: unset;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 40px 40px 0px;
+}
+.register-title_re{
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+    font-size: 48px;
+    line-height: 28px;
+    color: #000000;
+}
+.try_This_Way_Register-div{
+    position: absolute;
+    right: 5vh;
+    bottom: 5vh;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.login-title_re{
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+    font-size: 48px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.register-p{
+    position: absolute;
+    height: 63px;
+    left: 6vw;
+    top: 14vh;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+     justify-content: center;
+}
+.register-form{
+    position: absolute;
+    left: 5vw;
+    top: 32vh;
+    width: 83%;
+    margin-top: -11vh;
+}
+.Login-btn{
+    color: #FFFFFF;
+    background-color: #1C356E;
+    margin-left: 38px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.Login-btn:hover{
+    color:#1C356E ;
+    background-color:  #FFFFFF;
+    border: #1C356E 2px solid;
+}
+.form-group{
+    margin-bottom: 24px;
+    height: 56px;
+}
+.form-check{
+    padding-left: 0px;
+    float: left;
+}
+.forget-pswd{
+    float: left;
+    margin-top: 17px;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked{
+    color: #1c356e !important;
+}
+.register-Image{
+    height: 37vh;
+    position: absolute;
+    top: 30%;
+}
+.try-this-way{
+    color: #FFFFFF;
+}
+.try-this-way:hover{
+    color: #000000;
+}

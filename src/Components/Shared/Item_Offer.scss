@@ -1,0 +1,63 @@
+.Item-Offer {
+    width: 290px;
+    height: 410px;
+    margin: auto;
+    border-radius: 6px;
+    transition: 0.4s;
+
+    .radio-button {
+        display: none;
+    }
+
+    .imm {
+        width: 210px;
+        height: 210px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin: 5px auto;
+        color: #666666;
+        font-weight: 400;
+        overflow: hidden;
+        text-align: left;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        /* number of lines to show */
+        line-clamp: 4;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        max-width: 250px;
+    }
+}
+
+.Item-Offer:hover {
+    border: 2px solid #1C356E;
+    width: 360px;
+    height: 510px;
+    cursor: pointer;
+    transition: 0.4s;
+
+    .radio-button {
+        display: block;
+        bottom: 10px;
+        right: 10px;
+        position: absolute;
+    }
+
+    .text {
+        font-size: 16px;
+        margin: 5px auto;
+        color: #666666;
+        font-weight: 400;
+        overflow: hidden;
+        text-align: left;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        /* number of lines to show */
+        line-clamp: 6;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        max-width: 300px;
+    }
+}

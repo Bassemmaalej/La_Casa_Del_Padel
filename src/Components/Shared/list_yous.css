@@ -1,0 +1,6 @@
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: max-content;
+    height: fit-content;
+}

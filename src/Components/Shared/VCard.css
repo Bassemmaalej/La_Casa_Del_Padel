@@ -1,0 +1,18 @@
+
+.p .vect{
+    margin-right: 5px;
+    margin-bottom:5px ;
+    width: 20px;
+    height: 20px;
+}
+.p span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #6B7280;
+}
+.col-12.more-btn{
+    background-color: #1C356E;
+    border: #1C356E;
+    border-radius: 8px;
+
+}

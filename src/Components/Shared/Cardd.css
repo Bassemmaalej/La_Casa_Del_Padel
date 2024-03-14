@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+.text {
+    font-size: 14px;
+    margin: 5px auto;
+    font-weight: 500;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* number of lines to show */
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    max-width: 450px;
+}
+
+h2 {
+    color: #1C356E;
+    font-weight: bold;
+    font-family: Rubik;
+    font-size: 40px;
+
+}
+
+.col-3.start-btn {
+    background-color: #1C356E;
+    border: none;
+    height: 30px;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: inherit;
+}

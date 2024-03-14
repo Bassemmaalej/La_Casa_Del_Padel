@@ -1,0 +1,35 @@
+.footer{
+    /* Frame 13 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+
+position: absolute;
+width: 1979.52px;
+height: 660.77px;
+left: -11.37px;
+top: 3783.19px;
+
+
+
+/* Vector 2 */
+
+position: static;
+width: 1953.66px;
+height: 622.13px;
+left: 1969.52px;
+top: 632.1px;
+
+background: #1C356E;
+transform: rotate(179.45deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+
+}

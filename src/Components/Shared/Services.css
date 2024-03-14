@@ -1,0 +1,77 @@
+.tit {
+    font-size: 44px;
+    font-weight: bold;
+    color: #668BD8;
+    margin-left: 20px;
+    text-align: left;
+
+
+
+}
+
+.parag {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 138.5%;
+    /* or 33px */
+
+    letter-spacing: 0.08em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #616161;
+
+
+    margin-left: 20px;
+    overflow: hidden;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    /* number of lines to show */
+    line-clamp: 7;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+
+    .parag {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 138.5%;
+        /* or 33px */
+
+        letter-spacing: 0.08em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+
+        color: #616161;
+
+
+        margin-left: 10px;
+        overflow: hidden;
+        text-align: left;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        /* number of lines to show */
+        line-clamp: 7;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        max-width: 200px;
+    }
+
+    .tit {
+        font-size: 36px;
+        font-weight: bold;
+        color: #668BD8;
+        margin-left: 10px;
+        text-align: left;
+
+
+
+    }
+}

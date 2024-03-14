@@ -1,0 +1,63 @@
+.img-cont {
+    background-image: url("../../../assets/images/about.png");
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+    height: 785px;
+    width: 645px;
+    margin: 0px auto;
+    border: 7px solid #1C356E;
+    border-radius: 50px;
+    z-index: 1;
+
+
+}
+
+.about-title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    /* or 55px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #1C356E;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 15px;
+}
+
+.about-subtitle {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-left: 15%;
+    margin-top: 40px;
+    line-height: 126%;
+    /* or 45px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #D4082B;
+}
+
+.about-content ul {
+    margin-top: 50px;
+}
+
+.about-content li {
+    margin: 15px;
+    font-size: 17px;
+    color: #616161;
+    font-family: Rubik;
+    max-width: 700px;
+    margin-left: 10%;
+
+}
+
+.about-content li::marker {
+    font-size: 25px;
+}

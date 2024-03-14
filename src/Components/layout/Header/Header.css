@@ -1,0 +1,243 @@
+.header-transparent .is-fixed .main-bar {
+    background-color: #ffffffe6;
+
+}
+
+.site-header {
+    background-color: #ffffff;
+
+}
+
+.clearfix {
+    margin-right: 0;
+    padding-right: 0;
+    height: 66px;
+}
+
+.header-transparent {
+    position: relative;
+
+}
+
+.logo-header img,
+.logo-footer img {
+    width: 75%;
+}
+
+@media screen and (max-width: 991px) {
+    .header-nav {
+        background: #1C356E;
+        border-radius: 35px 0;
+    }
+
+}
+
+.content-nav {
+    background: #1C356E;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 0 0 0 90px;
+    padding: 0 25px;
+}
+
+.header-nav .nav>li>a {
+    text-decoration: auto;
+}
+
+.extra-nav {
+    border: none;
+    padding: 13px 0;
+    margin: 0 20px;
+}
+
+.extra-cell {
+    border-radius: 30px;
+    width: 100%;
+    height: 40px;
+    padding: 7px;
+    margin-left: 0;
+
+}
+
+.extra-nav .extra-cell {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.avatar {
+    /* float: left;
+    color: white;
+    background: #755079;
+    border-radius: 40px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold; */
+    font-size: 1rem !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.user-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dropdown-menu.show {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    transform: translate(17px, 52px);
+    margin-right: -8px;
+    left: -7px !important;
+    top: 6px !important;
+    width: auto;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 421px) {
+    .extra-cell .user-name {
+        display: none;
+    }
+
+    .mo-left .header-nav.show {
+        background-color: #e5eaf5;
+    }
+
+    .dropdown-menu.show {
+        width: max-content !important;
+        left: -75px !important;
+    }
+}
+
+.navstyle2 .header-nav .nav>li.active>a::after,
+.navstyle2 .header-nav .nav>li>a:hover {
+
+    border-radius: 44px 34px 53px 34px;
+    background-color: #d4082b;
+
+}
+
+.navstyle2 .header-nav .nav>li.active>a,
+.navstyle2 .header-nav .nav>li>a {
+    color: #ffffff;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.mega-menu {
+    position: absolute;
+    background-color: #c7cddb;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.dropdown-toggle {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    top: -7px;
+    position: relative;
+    justify-content: space-between;
+    border-radius: 45px;
+    background: #556893;
+    border: none;
+
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    /* background-color: #556893; */
+    box-shadow: 0 0 0 0.05rem rgb(49 132 253 / 50%);
+    border: none;
+}
+
+.menu-div-name {
+    background-color: #c7cddb;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: -8px;
+    height: 40px;
+}
+
+.fa-pencil {
+    color: #c7cddb;
+    position: absolute;
+    right: 10px;
+    font-size: 17px;
+}
+
+.menu-div-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+
+}
+
+.menu-div-body .avatar {
+    width: 65px !important;
+    height: 65px !important;
+    font-size: 2rem !important;
+}
+
+.menu-div-body p {
+    color: #c7cddb;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.coins {
+    display: flex;
+    align-items: center;
+    color: #1c356e;
+}
+
+.navstyle2 .header-nav .nav>li.active>a::after {
+    content: "";
+    color: #d4082b;
+
+}
+
+@media screen and (max-width: 421px) {
+    .navstyle2 .header-nav .nav>li.active>a {
+        color: #d4082b;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-nav .nav {
+        background: #e5eaf5;
+    }
+}
+
+.site-header .main-bar .container {
+    max-width: 100% !important;
+}
+
+/* .logo-header{
+    position: absolute;
+    left: -180px;
+}
+@media only screen and (max-width: 991px){
+    .logo-header{
+        position: absolute;
+        left: -130px;
+    }
+}
+@media screen and (max-width: 421px){
+    .logo-header{
+        position: absolute;
+        left: 0px;
+    }
+} */
